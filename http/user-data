@@ -15,6 +15,11 @@ autoinstall:
     allow-pw: true
     install-server: true
   locale: en_US
+  package_update: true
+  package_upgrade: true
+  packages:
+    - docker.io
+    - git
   storage:
     layout:
       name: direct
